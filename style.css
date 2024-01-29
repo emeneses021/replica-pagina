@@ -4,27 +4,44 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
 header {
     background-color :black ;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+
 }
 
+.banner-foto {
+    width: 100%;
+    display: block;
+}
+
+.banner-foto img {
+max-width: 100%;
+}
+
+.banner-bambas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+}
+
+.banner-bambas img {
+    max-width: 100%;
+}
+    
+
 .foto {
-    height: 35px;
-    margin-right: 1650px;
+    
 }
 .form {
-    height: 35px;
-    width: 550px;
-    margin-right: 800px;
+    
     position: relative;
     top: -350px:  
 }
 .foto2 {
-    height: 600px;
-    width: 2000px;
 
 }
 .nove {
@@ -34,38 +51,24 @@ header {
 }
 
 .sput {
-    margin-right: 30px;
+    
     margin: 30px;
 }
 
 .foto3 {
-    height: 600px;
-    width: 2000px;
-    margin: 30px;
 }
 
-
-
-.foto4 {
-    height: 600px;
-    width: 2000px;
-    margin: 30px;
-}
 
 .foto5 {
-    height: 100px;
-    width: 1800px;
-    margin: 30px;
 }
 
 .noveda {
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 20px;
 }
 .foto6 {
     height: 600px;
-    width: 2000px;
 }
 
 .favo {
@@ -76,9 +79,25 @@ header {
 }
 
 .spot {
-    margin-right: 280px;
-    margin: 250px;
     position: relative;
     top: -220px;
-    font-size: 20px;
+
+}
+
+.header1 {
+    background-color :black ;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner-foto {
+        width: 100%;
+        display: block;
+    }
+
+    .banner-foto img {
+    max-width: 100%;
+   }
 }
